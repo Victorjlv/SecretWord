@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Poppins', 'Roboto', sans-serif;
+	background: linear-gradient(130deg, #410979 0%, #00d4ff 100%);
+	color: #FFF;
+}
+
+h1 {
+	font-size: 3rem;
+	margin: 0.75rem 0;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+button.btn-primary {
+	background: transparent;
+	font-weight: 900;
+	border: 0;
+	color: #fff;
+	margin-top: 2.5rem;
+	padding: 2rem 4rem;
+	border-radius: 1rem;
+	cursor: pointer;
+	box-shadow: 0px 10px 20px 0px #444;
+	transition: .5s;
+	text-transform: uppercase;
+}
+
+button.btn-primary:hover {
+	background: #5A5BF3;
+	color: #fff;
+}
